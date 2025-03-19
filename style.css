@@ -5,7 +5,14 @@ html {
   .title {
     font-size: 3rem;
   }
-  
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid black; /* Adjust color */
+    display: inline-block;
+}
   .myStyle h1 {
     font-size: 4.5rem;
   }
