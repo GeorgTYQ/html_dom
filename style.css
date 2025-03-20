@@ -164,7 +164,7 @@ html {
   }
   
   h1::before,
-  h2::before {
+  h2::before{
     content: '';
     position: absolute;
     left: 0;
@@ -254,10 +254,10 @@ html {
   }
   
   .background {
-    position: fixed;
+    position: absolute;
     z-index: -1;
     top: 0;
-    bottom: 0;
+    bottom: 100;
     width: 100%;
     background: linear-gradient(to right bottom, white, #f78d0c 100%);
   }
@@ -375,7 +375,7 @@ html {
       width: 100%;
     }
   
-    .mySection {
+    .pSection {
       margin: 15px;
       padding: 15px;
       width: calc(100% - 30px);
